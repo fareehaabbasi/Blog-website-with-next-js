@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #EDECE8;
+  --meltBorwn: #F1E7D6;
+  --purpleColor: #EED0A9;
+  --navFColor: #000000;
+  --eBoxColor:#AE6505;
+  --headingColor: #2E2E2E;
+
+
+  --font-body: 'Poppins', sans-serif;
+  --font-heading: 'Playfair Display', serif;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: var(--primary);
+}
+
+
+/* @font-face {
+  font-family: "LostFish";
+  src: url("/assets/fonts/LostFish-5DOz.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+
