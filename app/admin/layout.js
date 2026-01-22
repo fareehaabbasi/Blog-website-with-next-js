@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import AdminSidebar from "@/components/admin/AdminSidebar";
+import AdminSidebar from "@/Components/admin/AdminSidebar";
 
 export default function AdminLayout({ children }) {
   const [open, setOpen] = useState(false);
